@@ -1,13 +1,18 @@
 <template>
   <div id="app">
-    <div class="escolher-moeda">
-      
-    </div>
-
+      <h1 class="title">Conversor de Moedas</h1>
 
     <Conversor
-    :moeda1="moeda1"
-    :moeda2="moeda2"
+    moeda1="BRL"
+    moeda2="USD"
+    />
+    <Conversor
+    moeda1="BRL"
+    moeda2="EUR"
+    />
+    <Conversor
+    moeda1="BRL"
+    moeda2="JPY"
     />
 
 
@@ -26,8 +31,6 @@ export default {
   },
   data(){
     return{
-      moeda1: 'USD',
-      moeda2: 'BRL'
 
     }
   }
