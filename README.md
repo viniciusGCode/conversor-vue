@@ -1,24 +1,13 @@
-# conversor-vue
+# conversor de moedas
 
-## Project setup
+Um conversor de moedas simples feito por mim em vue.js consumindo uma API free com Axios
+
+## instalar projeto
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar no localhost
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
